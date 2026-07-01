@@ -28,8 +28,7 @@ CLEANROOM-AGENT is built on three ideas:
 
 3. **Per-requirement auditable labels.** Every functional requirement exits with a label recording *how* it was established — `PROVED`, `PROVED-WITH-AXIOMS`, `TESTED (pass@k)`, or `UNCERTIFIED` — so success and failure are no longer indistinguishable behind a green test suite.
 
-The pipeline stages are: **Spec** (deterministic FR parse + LLM behavioral contracts) → **Dependency** analysis → **Planning** (per-FR, MVC-layered) → **clean-room proof / code / test generation** → **proof-guided + pass@k certification** → optional **controlled recovery** (a separate, reported phase). Full detail: [`docs/methodology.md`](docs/methodology.md).
-
+The pipeline stages are: **Spec** (deterministic FR parse + LLM behavioral contracts) → **Dependency** analysis → **Planning** (per-FR, MVC-layered) → **clean-room proof / code / test generation** → **proof-guided + pass@k certification** → optional **controlled recovery** (a separate, reported phase).
 ---
 
 ## Requirements
